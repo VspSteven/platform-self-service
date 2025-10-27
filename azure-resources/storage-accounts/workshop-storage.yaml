@@ -1,7 +1,7 @@
 apiVersion: storage.azure.com/v1api20230101
 kind: StorageAccount
 metadata:
-  name: steven-workshop-sa
+  name: stevenworkshopsa
   namespace: default
 spec:
   location: swedencentral

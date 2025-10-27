@@ -1,7 +1,7 @@
 apiVersion: storage.azure.com/v1api20230101
 kind: StorageAccount
 metadata:
-  name: frontendstorageuniqueid
+  name: stevenfeworkshopsa
   namespace: devops-frontend-dev
 spec:
   location: swedencentral
@@ -9,7 +9,7 @@ spec:
   sku:
     name: Standard_LRS
   owner:
-    name: frontend-team-rg
+    name: steven-frontend-team-rg
   accessTier: Hot
   tags:
     environment: dev
