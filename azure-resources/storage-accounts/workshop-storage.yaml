@@ -1,7 +1,7 @@
 apiVersion: storage.azure.com/v1api20230101
 kind: StorageAccount
 metadata:
-  name: workshopstorageuniqueid
+  name: steven-workshop-sa
   namespace: default
 spec:
   location: swedencentral
@@ -9,7 +9,7 @@ spec:
   sku:
     name: Standard_LRS
   owner:
-    name: workshop-rg
+    name: steven-workshop-rg
   accessTier: Hot
   tags:
     environment: workshop
